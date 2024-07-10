@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+    
+.boxcenter{
+    width: 100%;
+    margin: 0 auto;
+}
+
+    /* Box sản phẩm */
+.boxconten{
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.boxconten-CT{
+    margin-left: 60px;
+    margin-bottom: 850px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-left: 200px;
+}
+
+.boxsp{
+    float: left;
+    width: 15%;
+    min-height: 300px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    width: 20%;
+    margin: 20px;
+    text-align: center;
+}
+.boxsp a{
+    font-size: 16px;
+    color: teal;
+    text-decoration: none;
+}
+.boxsp p{
+    font-size: 18px;
+}
+.boxsp .img{
+    min-height: 230px;
+    text-align: center;
+}
+.boxsp input{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px 35px;
+}
+.boxsp input:hover{
+    background-color: rgb(83, 81, 81);   
+}
+.fromcontent-sp input[type='button']{
+    border-radius: 5px;
+    padding: 5px 35px;
+    color: aliceblue;
+    background-color: black;
+    border: 1px #ccc solid;
+    margin-bottom: 10px;
+}
+
+.fromcontent input[type='button']{
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: aliceblue;
+    background-color: black;
+    border: 1px #ccc solid;
+}
+.detail ul li {
+    display: flex;
+    align-items: center;
+}
+/* END */
